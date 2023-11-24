@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>List To Do</title>
+
+	<link rel="stylesheet" href="main2.css" />
+</head>
+<body>
+	
+	<header>
+		<h1>My To Do List In Incoming Year 2024!</h1>
+		<main class="app">
+			<section class="greeting">
+				<h2 class="title">
+					Welcome!, <input type="text" id="name" placeholder="Insert Name" />
+				</h2>
+			</section>
+		<form id="new-task-form">
+			<input 
+				type="text" 
+				name="new-task-input" 
+				id="new-task-input" 
+				placeholder="What do you have planned?" />
+			<input 
+				type="submit"
+				id="new-task-submit" 
+				value="Add task" />
+		</form>
+	</header>
+	<main>
+		<section class="task-list">
+			<h2>To-Do's</h2>
+
+			<div id="tasks">
+
+			</div>
+		</section>
+	</main>
+
+	<script src="script.js"></script>
+</body>
+</html>
